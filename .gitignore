@@ -18,4 +18,5 @@ pretrained_models/big-lama
 
 results/*
 
+weights/*
 

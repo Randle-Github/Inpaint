@@ -8,7 +8,7 @@ python remove_anything_3d.py \
     --sam_model_type "vit_t" \
     --sam_ckpt ./weights/mobile_sam.pt \
     --lama_config ./lama/configs/prediction/default.yaml \
-    --lama_ckpt ./pretrained_models/big-lama \
+    --lama_ckpt ./weights/big-lama \
     --tracker_ckpt vitb_384_mae_ce_32x4_ep300 \
     --mask_idx 1 \
     --config ./nerf/configs/horns.txt \

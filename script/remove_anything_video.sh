@@ -8,8 +8,8 @@ python remove_anything_video.py \
     --sam_model_type "vit_t" \
     --sam_ckpt ./weights/mobile_sam.pt \
     --lama_config lama/configs/prediction/default.yaml \
-    --lama_ckpt ./pretrained_models/big-lama \
+    --lama_ckpt ./weights/big-lama \
     --tracker_ckpt vitb_384_mae_ce_32x4_ep300 \
-    --vi_ckpt ./pretrained_models/sttn.pth \
+    --vi_ckpt ./weights/sttn.pth \
     --mask_idx 2 \
     --fps 25
